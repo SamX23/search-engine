@@ -1,7 +1,6 @@
-# Google Search Engine Clone
+# Search Engine Using Google API
 
-Hi, I created this website inspired by Clever Programmers Live Youtube.
-
+Hi, I'm inspired by Clever Programmers Live Youtube.
 What I use here is :
 
 - Node JS for NPM
