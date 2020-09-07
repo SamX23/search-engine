@@ -18,8 +18,7 @@ function Search({ hideButtons = false }) {
   const search = (e) => {
     e.preventDefault();
 
-    console.log("this is input >> ", input);
-
+    // console.log("this is input >> ", input);
     dispatch({
       type: actionTypes.SET_SEARCH_TERM,
       term: input,
@@ -34,7 +33,7 @@ function Search({ hideButtons = false }) {
       <div className="search__input">
         <SearchIcon className="search__inputIcon" />
         <input value={input} onChange={(e) => setInput(e.target.value)} />
-        <MicIcon />
+        <MicIcon className="mic-icon" />
       </div>
 
       {/* Ternary conditional */}

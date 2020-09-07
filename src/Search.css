@@ -22,7 +22,12 @@
 }
 
 .search__inputIcon {
+  margin-left: 8px;
   color: gray;
+}
+
+.mic-icon {
+  margin-right: 8px;
 }
 
 .search__buttons {

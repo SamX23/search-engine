@@ -27,7 +27,8 @@ function Home() {
           alt=""
         />
         <div className="home__inputContainer">
-          <Search hideButtons />
+          {/*  hideButtons props to hide the 2 button under search bar */}
+          <Search />
         </div>
       </div>
     </div>
