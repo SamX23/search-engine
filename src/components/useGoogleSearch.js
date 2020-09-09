@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import API_KEY from "./keys";
 
-const CONTEXT_KEY = "2a6127ee6c6a31259";
+const CONTEXT_KEY = process.env.REACT_APP_CONTEXT_KEY;
+const API_KEY = process.env.REACT_APP_KEY;
 
 // Custom Hook
 // term is the value from search bar

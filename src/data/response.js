@@ -1,4 +1,4 @@
-// Using response as an object
+// For development purpose
 export default {
   kind: "customsearch#search",
   url: {

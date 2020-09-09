@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./Home";
-import SearchPage from "./SearchPage";
+import Home from "./pages/Home";
+import SearchPage from "./pages/SearchPage";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

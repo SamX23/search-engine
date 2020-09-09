@@ -10,6 +10,6 @@ What I use here is :
 - @material-ui/icons
 - React Context API
 - State-provider, reducer <= Terms I learn to understand with
-- Google Custom REST API (<https://developers.google.com/custom-search/v1/using_rest>)
+- Google Custom REST API
 
 ## Copyright 2020 - Sami Kalammallah

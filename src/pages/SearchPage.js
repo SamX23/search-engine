@@ -1,16 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./SearchPage.css";
-import { useStateValue } from "./StateProvider";
-import useGoogleSearch from "./useGoogleSearch";
-import Search from "./Search";
+import { Link } from "react-router-dom";
+import { useStateValue } from "../components/StateProvider";
+import useGoogleSearch from "../components/useGoogleSearch";
+import Search from "../components/Search";
 import SearchIcon from "@material-ui/icons/Search";
 import DescriptionIcon from "@material-ui/icons/Description";
 import ImageIcon from "@material-ui/icons/Image";
 import RoomIcon from "@material-ui/icons/Room";
-// import LocalOfferIcon from "@material-ui/icons/LocalOffer";
-// import MoreVertIcon from "@material-ui/icons/MoreVert";
-// import Response from "./response";
+// import Response from "./data/response";
 
 function SearchPage() {
   const [{ term }, dispatch] = useStateValue();
@@ -20,8 +18,7 @@ function SearchPage() {
 
   // Using response.js for developing only
   // const data = Response;
-
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="searchPage">
@@ -58,16 +55,6 @@ function SearchPage() {
                 <RoomIcon />
                 <Link to="/maps">Maps</Link>
               </div>
-
-              {/* <div className="option">
-                <LocalOfferIcon />
-                <Link to="/Shopping">Shopping</Link>
-              </div>
-
-              <div className="option">
-                <MoreVertIcon />
-                <Link to="/more">More</Link>
-              </div> */}
             </div>
 
             <div className="options__right">

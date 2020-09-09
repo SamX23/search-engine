@@ -5,7 +5,7 @@ import MicIcon from "@material-ui/icons/Mic";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
-import { actionTypes } from "./reducer";
+import { actionTypes } from "../reducer";
 
 function Search({ hideButtons = false }) {
   // dispatch is like a gun where we want to shot the data anywhere
