@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import AppsIcon from "@material-ui/icons/Apps";
 import { Avatar } from "@material-ui/core";
 import Search from "../components/Search";
@@ -10,11 +9,10 @@ function Home() {
     <div className="home">
       <div className="home__header">
         <div className="home__headerLeft">
-          <Link to="/about">About</Link>
+          <a href="https://github.com/SamX23/search-engine">About</a>
         </div>
         <div className="home__headerRight">
-          <Link to="/gmail">Gmail</Link>
-          <Link to="/images">Images</Link>
+          <a href="mailto:skalexsong@gmail.com">Gmail</a>
           <AppsIcon />
           <Avatar />
         </div>

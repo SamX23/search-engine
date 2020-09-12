@@ -56,6 +56,13 @@
 
 .searchPage__result {
   margin: 40px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: -15px 17px 0px -6px rgba(0, 0, 0, 0.364);
+}
+
+.searchPage__result:hover {
+  box-shadow: -15px 17px 0px -6px rgba(3, 41, 255, 0.364);
 }
 
 .searchPage__resultCount {
@@ -63,9 +70,9 @@
   font-size: 14px;
 }
 .searchPage__results {
-  max-width: 650px;
-  margin-top: 20px;
-  margin-left: 240px;
+  max-width: 700px;
+  margin-top: 10px;
+  margin-left: 230px;
   margin-bottom: 100px;
 }
 
