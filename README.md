@@ -15,9 +15,9 @@ What I use here is :
 ## Screenshots
 
 Home Page
-(https://github.com/SamX23/search-engine/blob/master/Screenshot/google-1.png)
+![Home-Page](https://github.com/SamX23/search-engine/blob/master/Screenshot/google-1.png)
 
 Result Page
-(https://github.com/SamX23/search-engine/blob/master/Screenshot/google-2.png)
+![Result-Page](https://github.com/SamX23/search-engine/blob/master/Screenshot/google-2.png)
 
 ## Copyright 2020 - Sami Kalammallah
