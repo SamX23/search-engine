@@ -12,4 +12,12 @@ What I use here is :
 - State-provider, reducer <= Terms I learn to understand with
 - Google Custom REST API
 
+## Screenshots
+
+Home Page
+(/Screenshot/google-1.png)
+
+Result Page
+(/Screenshot/google-2.png)
+
 ## Copyright 2020 - Sami Kalammallah
