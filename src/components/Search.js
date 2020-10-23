@@ -4,11 +4,11 @@ import MicIcon from "@material-ui/icons/Mic";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import { useStateValue } from "../store/StateProvider";
-import { actionTypes } from "../reducer";
+import { actionTypes } from "../store/reducer";
 
 export default function Search({ hideButtons = false }) {
   // dispatch is like a gun where we want to shot the data anywhere
-  const [{}, dispatch] = useStateValue();
+  const [{ data }, dispatch] = useStateValue();
 
   const [input, setInput] = useState("");
   const history = useHistory();

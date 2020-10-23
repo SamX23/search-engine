@@ -1,9 +1,8 @@
 import React from "react";
-import Home from "./pages/Home";
-import SearchPage from "./pages/SearchPage";
-import "./App.css";
+import Home from "../pages/Home";
+import SearchPage from "../pages/SearchPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer from "./Footer";
 
 function App() {
   return (

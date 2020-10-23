@@ -5,7 +5,7 @@ const API_KEY = process.env.REACT_APP_KEY;
 
 // Custom Hook
 // term is the value from search bar
-const useGoogleSearch = (term) => {
+export default function useGoogleSearch(term) {
   const [data, setData] = useState(null);
 
   // When useGoogleSearch used, this will fire the useEffect
@@ -25,6 +25,4 @@ const useGoogleSearch = (term) => {
   }, [term]);
 
   return { data };
-};
-
-export default useGoogleSearch;
+}

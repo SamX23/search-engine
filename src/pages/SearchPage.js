@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useStateValue } from "../components/StateProvider";
+import { useStateValue } from "../store/StateProvider";
 import useGoogleSearch from "../components/useGoogleSearch";
 import Search from "../components/Search";
 import SearchIcon from "@material-ui/icons/Search";
