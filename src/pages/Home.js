@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 import AppsIcon from "@material-ui/icons/Apps";
 import { Avatar } from "@material-ui/core";
 import Search from "../components/Search";

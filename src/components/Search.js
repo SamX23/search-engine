@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import "./Search.css";
 import SearchIcon from "@material-ui/icons/Search";
 import MicIcon from "@material-ui/icons/Mic";
 import { Button } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
+import { useStateValue } from "../store/StateProvider";
 import { actionTypes } from "../reducer";
 
-function Search({ hideButtons = false }) {
+export default function Search({ hideButtons = false }) {
   // dispatch is like a gun where we want to shot the data anywhere
   const [{}, dispatch] = useStateValue();
 
@@ -62,5 +61,3 @@ function Search({ hideButtons = false }) {
     </form>
   );
 }
-
-export default Search;

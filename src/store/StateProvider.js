@@ -5,6 +5,7 @@ export const StateContext = createContext();
 
 // initialState is about what the data is look like first time
 // childrens is the <App/>
+
 // Hihger order component
 export const StateProvider = ({ reducer, initialState, children }) => (
   <StateContext.Provider value={useReducer(reducer, initialState)}>

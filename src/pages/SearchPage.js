@@ -1,5 +1,4 @@
 import React from "react";
-import "./SearchPage.css";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../components/StateProvider";
 import useGoogleSearch from "../components/useGoogleSearch";
